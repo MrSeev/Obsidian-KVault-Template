@@ -1,0 +1,174 @@
+:root {
+    --page-white: #ffffff;
+    --page-manila: #e9d4a7;
+    --page-blueprint: #5a67a8;
+    --page-black: #000000;
+
+    --pen-white: #edf1fc;
+    --pen-black: #26241f;
+    --pen-red: #d04255;
+    --pen-green: #56ac5a;
+    --pen-blue: #3f76ed;
+
+    --grid-size: 48px;
+}
+
+/* General Classes */
+.page-white,
+.page-manila,
+.page-blueprint,
+.page-black {
+    --text-normal: var(--accent-color);
+    --text-muted: var(--accent-color);
+    --text-faint: var(--accent-color-trans);
+    --h1-color: var(--accent-color);
+    --h2-color: var(--accent-color);
+    --h3-color: var(--accent-color);
+    --h4-color: var(--accent-color);
+    --h5-color: var(--accent-color);
+    --h6-color: var(--accent-color);
+
+    --hr-color: var(--accent-color);
+    --blockquote-border-color: var(--accent-color);
+    --embed-border-left: 2px solid var(--accent-color);
+    --collapse-icon-color-collapsed: var(--accent-color);
+    --checkbox-color: var(--accent-color);
+    --checkbox-marker-color: var(--page-color);
+    --checkbox-color-hover: var(--accent-color-trans);
+    --checkbox-border-color: var(--accent-color);
+    --checklist-done-color: var(--accent-color);
+    --list-marker-color: var(--accent-color);
+
+    --interactive-accent: var(--accent-color);
+    --metadata-label-text-color: var(--accent-color);
+    --metadata-input-text-color: var(--accent-color);
+    --tag-color: var(--accent-color);
+    --tag-background: var(--accent-color-trans);
+    --pill-cover-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
+    --background-modifier-border-focus: var(--accent-color);
+    --background-modifier-border: var(--accent-color-trans);
+    --background-modifier-hover: color-mix(
+        in srgb,
+        var(--accent-color) 60%,
+        transparent
+    );
+
+    color: var(--accent-color);
+    background-color: var(--page-color);
+    font-weight: bold;
+}
+
+/* Background Colors */
+
+/* ----------------------- Manila/Tan Page Background ----------------------- */
+/* Defaults to Black Pen */
+.page-manila {
+    --page-color: var(--page-manila);
+    --accent-color: var(--pen-black);
+    --accent-color-trans: color-mix(
+      in srgb,
+      var(--accent-color) 15%,
+      transparent
+    );
+    color-scheme: light;
+}
+
+/* --------------------------- White Page Background ------------------------ */
+/* Defaults to Black Pen */
+.page-white {
+    --page-color: var(--page-white);
+    --accent-color: var(--pen-black);
+    --accent-color-trans: color-mix(
+      in srgb,
+      var(--accent-color) 15%,
+      transparent
+    );
+    color-scheme: light;
+}
+  
+/* --------------------------- Black Page Background ------------------------ */
+/* Defaults to White Pen */
+.page-black {
+    --page-color: var(--page-black);
+    --accent-color: var(--pen-white);
+    --accent-color-trans: color-mix(
+        in srgb,
+        var(--accent-color) 15%,
+        transparent
+    );
+    color-scheme: dark;
+}
+
+/* --------------------------- Blueprint Page Background ------------------------ */
+/* Defaults to White Pen */
+.page-blueprint {
+    --page-color: var(--page-blueprint);
+    --accent-color: var(--pen-white);
+    --accent-color-trans: color-mix(
+        in srgb,
+        var(--accent-color) 15%,
+        transparent
+    );
+    color-scheme: light;
+
+    --grid-color: color-mix(
+        in srgb,
+        var(--pen-white) 15%,
+        transparent
+    );
+
+    background-image: linear-gradient(
+            0deg,
+            transparent 0px,
+            var(--grid-color) 1px,
+            var(--grid-color) 2px,
+            transparent 3px
+        ),
+        linear-gradient(
+            90deg,
+            transparent calc(var(--grid-size) - 3px),
+            var(--grid-color) calc(var(--grid-size) - 2px),
+            var(--grid-color) calc(var(--grid-size) - 1px),
+            transparent var(--grid-size)
+        );
+    background-size: var(--grid-size) var(--grid-size);
+
+}
+
+/* Pen colors */
+.pen-white {
+    --accent-color: var(--pen-white);
+    --accent-color-trans: color-mix(in srgb, var(--pen-white) 15%, transparent);
+    color: var(--accent-color);
+    --hr-color: var(--accent-color);
+}
+
+.pen-blue {
+    --accent-color: var(--pen-blue);
+    --accent-color-trans: color-mix(in srgb, var(--pen-blue) 15%, transparent);
+    color: var(--accent-color);
+    --hr-color: var(--accent-color);
+}
+
+.pen-red {
+    --accent-color: var(--pen-red);
+    --accent-color-trans: color-mix(in srgb, var(--pen-red) 15%, transparent);
+    color: var(--accent-color);
+    --hr-color: var(--accent-color);
+}
+
+.pen-green {
+    --accent-color: var(--pen-green);
+    --accent-color-trans: color-mix(in srgb, var(--pen-green) 15%, transparent);
+    color: var(--accent-color);
+    --hr-color: var(--accent-color);
+}
+
+.pen-black {
+    --accent-color: var(--pen-black);
+    --accent-color-trans: color-mix(in srgb, var(--pen-black) 15%, transparent);
+    color: var(--accent-color);
+    --hr-color: var(--accent-color);
+}
+
+/* Fonts */

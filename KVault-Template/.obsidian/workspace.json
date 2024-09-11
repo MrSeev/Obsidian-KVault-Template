@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "d843a0713fc756c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a19f82946d44e7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bedd8f29e56f5e96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Launchpad.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22eee60e93eebec3",
+    "type": "split",
+    "children": [
+      {
+        "id": "da2ed7f03c424e81",
+        "type": "tabs",
+        "dimension": 70.17374517374517,
+        "children": [
+          {
+            "id": "0d2e4faaedaca283",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6e855e44d3f798ad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "a8690d786fd97566",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d346f1b9a29faae1",
+        "type": "tabs",
+        "dimension": 29.826254826254832,
+        "children": [
+          {
+            "id": "9e525832e0762acb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 290.5
+  },
+  "right": {
+    "id": "4b6ac643d81ecff1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6fc61d7fc2f7d32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dae5bcc43868aa9",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Launchpad.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.8837172925457714,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 349.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
+      "workspaces:Manage workspace layouts": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "bedd8f29e56f5e96",
+  "lastOpenFiles": [
+    "99 - Meta/Example.md",
+    "99 - Meta/Templates/Default Template.md",
+    "99 - Meta/Templates/Daily Template.md",
+    "99 - Meta/Templates/Book Template.md",
+    "Launchpad.md",
+    "99 - Meta/Preload Classes/Daily CSS Classes.md",
+    "99 - Meta/Media/banner.jpg",
+    "99 - Meta/Media/Drawing 2024-09-11 15.28.41.excalidraw.md",
+    "99 - Meta/Media/Drawing 2024-09-09 21.48.55.excalidraw.md",
+    "01 - Education/College/Экономика отрасли/Drawing 2024-09-11 15.24.19.excalidraw.md",
+    "01 - Education/College/Экономика отрасли/Сущность и значение основных фондов. Их состав и классификация. Износ основных фондов. Показатели эффективности использования основного капитала.md",
+    "01 - Education/College/Экономика отрасли/Экономика отрасли.md",
+    "01 - Education/College/College Pad.md",
+    "01 - Education/College/Экономика отрасли",
+    "01 - Education/College/Правовое обеспечение в профессиональной деятельности/Правовое обеспечение в профессиональной деятельности.md",
+    "01 - Education/College/Стандартизация, сертификация и техническое документоведение/Организация работ по стандартизации в РФ.md",
+    "01 - Education/College/Основы предпринимательской деятельности/Лекция 2.md",
+    "01 - Education/College/Основы предпринимательской деятельности/Лекция 1.md",
+    "01 - Education/College/Стандартизация, сертификация и техническое документоведение/Стандартизация, сертификация и техническое документоведение.md",
+    "03 - Business/Крипто-тесак/Крипто тесак - Главная.md",
+    "04 - Projects/Home/Personal Projects Pad.md",
+    "04 - Projects/Games/Игры.md",
+    "02 - Productivity/Контроль продуктивности.md",
+    "07 - Wikipedia/Games to Play.md",
+    "05 - Books/Books List.md",
+    "05 - Books/2024/Все хреново. Марк Менсон/Все хреново. Книга о надежде.md",
+    "05 - Books/2023/Тонкое исскуство пофигизма. Марк Мэнсон/Тонкое исскуство пофигизма.md",
+    "04 - Projects/Home/Obsidian/Проект Obsidian.md",
+    "01 - Education/English",
+    "03 - Business/Крипто-тесак",
+    "01 - Education/Modeling",
+    "01 - Education/Programming",
+    "99 - Meta/Media/~syncthing~banner.jpg.tmp",
+    "~syncthing~Launchpad.md.tmp",
+    "Projects - Demo Project",
+    "01 - Education/College/Основы предпринимательской деятельности",
+    "05 - Books/2024/Аудиокнига. Дюна. Френк Герберт",
+    "99 - Meta/Media/Pasted image 20240811225632.png",
+    "99 - Meta/Media/Pasted image 20240820000854.png",
+    "99 - Meta/Media/photo_2024-08-24_11-30-47 (2).jpg",
+    "Без названия.canvas",
+    "Cache/7.jpg",
+    "Pasted image 20231031105613.png",
+    "Pasted image 20231031105600.png",
+    "asdfsf.canvas",
+    "Untitled 1.canvas"
+  ]
+}

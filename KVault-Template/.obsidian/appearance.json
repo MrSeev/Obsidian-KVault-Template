@@ -1,0 +1,17 @@
+{
+  "accentColor": "#febc71",
+  "baseFontSize": 20,
+  "cssTheme": "Minimal",
+  "baseFontSizeAction": false,
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono",
+  "enabledCssSnippets": [
+    "Colored Sidebar Items",
+    "General Classes",
+    "Note Classes",
+    "Dashboard"
+  ],
+  "showViewHeader": true,
+  "theme": "system"
+}
